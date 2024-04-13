@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmcd_waste=self.webpackChunkmcd_waste||[]).push([[957],{1957:(e,s,c)=>{e.exports=c.p+"static/media/bigTasty.983af8c7189ff065cc87.jpeg"}}]);

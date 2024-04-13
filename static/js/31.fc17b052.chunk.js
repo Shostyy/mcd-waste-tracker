@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmcd_waste=self.webpackChunkmcd_waste||[]).push([[31],{4031:(e,s,c)=>{e.exports=c.p+"static/media/cheesburger.60274eb63073c98905be.jpeg"}}]);

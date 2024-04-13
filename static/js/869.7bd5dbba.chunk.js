@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmcd_waste=self.webpackChunkmcd_waste||[]).push([[869],{9869:(e,a,s)=>{e.exports=s.p+"static/media/royalDelux.e962f3d7a01aca88d9ad.jpeg"}}]);

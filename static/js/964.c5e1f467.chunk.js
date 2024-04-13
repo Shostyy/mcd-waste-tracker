@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmcd_waste=self.webpackChunkmcd_waste||[]).push([[964],{6964:(e,s,b)=>{e.exports=b.p+"static/media/doubleCheesburger.b11b6ec9fee1d8d76db2.jpeg"}}]);
