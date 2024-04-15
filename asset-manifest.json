@@ -1,29 +1,15 @@
 {
   "files": {
-    "main.css": "/mcd-waste-tracker/static/css/main.92ebbb43.css",
-    "main.js": "/mcd-waste-tracker/static/js/main.6b5ba802.js",
-    "static/js/165.5008df49.chunk.js": "/mcd-waste-tracker/static/js/165.5008df49.chunk.js",
-    "static/js/957.c78f3b90.chunk.js": "/mcd-waste-tracker/static/js/957.c78f3b90.chunk.js",
-    "static/js/31.fc17b052.chunk.js": "/mcd-waste-tracker/static/js/31.fc17b052.chunk.js",
-    "static/js/964.c5e1f467.chunk.js": "/mcd-waste-tracker/static/js/964.c5e1f467.chunk.js",
-    "static/js/542.186edad4.chunk.js": "/mcd-waste-tracker/static/js/542.186edad4.chunk.js",
-    "static/js/547.621771ee.chunk.js": "/mcd-waste-tracker/static/js/547.621771ee.chunk.js",
-    "static/js/869.7bd5dbba.chunk.js": "/mcd-waste-tracker/static/js/869.7bd5dbba.chunk.js",
+    "main.css": "/mcd-waste-tracker/static/css/main.ae26b766.css",
+    "main.js": "/mcd-waste-tracker/static/js/main.5fa38d8b.js",
     "static/js/453.a322910e.chunk.js": "/mcd-waste-tracker/static/js/453.a322910e.chunk.js",
-    "static/media/bigMac.jpeg": "/mcd-waste-tracker/static/media/bigMac.cbf2820f60ffa8d8c4b3.jpeg",
-    "static/media/bigTasty.jpeg": "/mcd-waste-tracker/static/media/bigTasty.983af8c7189ff065cc87.jpeg",
-    "static/media/royalDelux.jpeg": "/mcd-waste-tracker/static/media/royalDelux.e962f3d7a01aca88d9ad.jpeg",
-    "static/media/mcChicken.jpeg": "/mcd-waste-tracker/static/media/mcChicken.77e19f9676b5225d1de1.jpeg",
-    "static/media/doubleCheesburger.jpeg": "/mcd-waste-tracker/static/media/doubleCheesburger.b11b6ec9fee1d8d76db2.jpeg",
-    "static/media/gamburger.jpeg": "/mcd-waste-tracker/static/media/gamburger.fa2d537163080399833b.jpeg",
-    "static/media/cheesburger.jpeg": "/mcd-waste-tracker/static/media/cheesburger.60274eb63073c98905be.jpeg",
     "index.html": "/mcd-waste-tracker/index.html",
-    "main.92ebbb43.css.map": "/mcd-waste-tracker/static/css/main.92ebbb43.css.map",
-    "main.6b5ba802.js.map": "/mcd-waste-tracker/static/js/main.6b5ba802.js.map",
+    "main.ae26b766.css.map": "/mcd-waste-tracker/static/css/main.ae26b766.css.map",
+    "main.5fa38d8b.js.map": "/mcd-waste-tracker/static/js/main.5fa38d8b.js.map",
     "453.a322910e.chunk.js.map": "/mcd-waste-tracker/static/js/453.a322910e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92ebbb43.css",
-    "static/js/main.6b5ba802.js"
+    "static/css/main.ae26b766.css",
+    "static/js/main.5fa38d8b.js"
   ]
 }

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmcd_waste=self.webpackChunkmcd_waste||[]).push([[547],{3547:(e,s,c)=>{e.exports=c.p+"static/media/mcChicken.77e19f9676b5225d1de1.jpeg"}}]);

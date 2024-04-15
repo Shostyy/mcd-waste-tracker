@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmcd_waste=self.webpackChunkmcd_waste||[]).push([[165],{8165:(e,c,s)=>{e.exports=s.p+"static/media/bigMac.cbf2820f60ffa8d8c4b3.jpeg"}}]);

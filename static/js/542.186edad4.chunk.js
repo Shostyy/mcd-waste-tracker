@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmcd_waste=self.webpackChunkmcd_waste||[]).push([[542],{5542:(e,s,a)=>{e.exports=a.p+"static/media/gamburger.fa2d537163080399833b.jpeg"}}]);
