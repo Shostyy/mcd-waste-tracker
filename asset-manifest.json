@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mcd-waste-tracker/static/css/main.b79cc35b.css",
-    "main.js": "/mcd-waste-tracker/static/js/main.1052f602.js",
+    "main.css": "/mcd-waste-tracker/static/css/main.70ed900d.css",
+    "main.js": "/mcd-waste-tracker/static/js/main.46b46805.js",
     "static/js/453.a322910e.chunk.js": "/mcd-waste-tracker/static/js/453.a322910e.chunk.js",
     "static/media/bun.png": "/mcd-waste-tracker/static/media/bun.f8f85e775b9adb946525.png",
     "index.html": "/mcd-waste-tracker/index.html",
-    "main.b79cc35b.css.map": "/mcd-waste-tracker/static/css/main.b79cc35b.css.map",
-    "main.1052f602.js.map": "/mcd-waste-tracker/static/js/main.1052f602.js.map",
+    "main.70ed900d.css.map": "/mcd-waste-tracker/static/css/main.70ed900d.css.map",
+    "main.46b46805.js.map": "/mcd-waste-tracker/static/js/main.46b46805.js.map",
     "453.a322910e.chunk.js.map": "/mcd-waste-tracker/static/js/453.a322910e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b79cc35b.css",
-    "static/js/main.1052f602.js"
+    "static/css/main.70ed900d.css",
+    "static/js/main.46b46805.js"
   ]
 }
