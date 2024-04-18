@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, get, child, remove, set } from 'firebase/database';
 import { firebaseConfig } from '../firebaseConfig';
 import { Checkbox, Button, Tab, Tabs, Box, Alert } from '@mui/material';
+import ApproveByPassword from '../HOC/ApproveByPassword';
 
 const firebase = initializeApp(firebaseConfig);
 const database = getDatabase(firebase);
@@ -233,4 +234,4 @@ const Closing: React.FC = () => {
   );
 };
 
-export default Closing;
+export default ApproveByPassword(Closing);

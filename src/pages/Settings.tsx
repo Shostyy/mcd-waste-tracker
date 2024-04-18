@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button, CircularProgress, Container, Typography, Alert } from '@mui/material';
 import { fetchCategoriesData } from '../utils/fetchCategoriesData';
 import { CATEGORIES, GOOGLE_API_KEY, GOOGLE_SHEET_ID, GOOGLE_SHEET_SELECTION_RANGE } from '../constants/constants';
+import ApproveByPassword from '../HOC/ApproveByPassword';
 
 const Settings: React.FC = () => {
   const [loading, setLoading] = useState(false);
@@ -54,4 +55,4 @@ const Settings: React.FC = () => {
   );
 };
 
-export default Settings;
+export default ApproveByPassword(Settings);

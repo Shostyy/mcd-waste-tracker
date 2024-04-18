@@ -5,6 +5,7 @@ import { firebaseConfig } from '../firebaseConfig';
 import { Tab, Tabs, Box, Alert, Button } from '@mui/material';
 import { convertingValues } from '../constants/convertingValues';
 import { convertingFixing } from '../constants/convertingFixing';
+import ApproveByPassword from '../HOC/ApproveByPassword';
 
 const firebase = initializeApp(firebaseConfig);
 const database = getDatabase(firebase);
@@ -13,7 +14,6 @@ const loadPreviousDaysData = async () => {
   try {
     const currentDate = new Date();
     const dates = [];
-
     // Generate date strings for the last three days (including today)
     for (let i = 0; i < 3; i++) {
       const previousDate = new Date(currentDate);
@@ -253,4 +253,4 @@ const Drinks: React.FC = () => {
   );
 };
 
-export default Drinks;
+export default ApproveByPassword(Drinks);

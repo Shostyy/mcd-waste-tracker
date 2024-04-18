@@ -22,3 +22,4 @@ export const GOOGLE_SHEET_SELECTION_RANGE = '!A1:B40';
 
 export const GOOGLE_API_KEY = 'AIzaSyDTXQTVuGPg-KXcc1EXXWr7Bmyin-CRaD8';
 
+export const MNG_PASSWORD = '4444';
