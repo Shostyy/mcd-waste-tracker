@@ -26,6 +26,12 @@ const ApproveByPassword = (WrappedComponent: React.FC<any>) => {
       setInputValue(event.target.value);
     }
 
+    const handleTextFieldKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
+      if (event.key === 'Enter') {
+        handleButtonClick();
+      }
+    };
+
     return (
       <>
         {isAuthorized ? (
@@ -37,11 +43,12 @@ const ApproveByPassword = (WrappedComponent: React.FC<any>) => {
               <TextField
                 autoFocus
                 margin="dense"
-                label="Password"
+                label="Пароль"
                 type="password"
                 fullWidth
                 value={inputValue}
                 onChange={handleChangeInput}
+                onKeyDown={handleTextFieldKeyPress}
               />
             </DialogContent>
             {isPasswordIncorrect && (<Alert severity="error">Невірний пароль</Alert>)}
