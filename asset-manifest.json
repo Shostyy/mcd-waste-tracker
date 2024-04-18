@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mcd-waste-tracker/static/css/main.ad28a279.css",
-    "main.js": "/mcd-waste-tracker/static/js/main.03b78a64.js",
+    "main.js": "/mcd-waste-tracker/static/js/main.e09247cb.js",
     "static/js/453.a322910e.chunk.js": "/mcd-waste-tracker/static/js/453.a322910e.chunk.js",
     "static/media/bun.png": "/mcd-waste-tracker/static/media/bun.f8f85e775b9adb946525.png",
     "index.html": "/mcd-waste-tracker/index.html",
     "main.ad28a279.css.map": "/mcd-waste-tracker/static/css/main.ad28a279.css.map",
-    "main.03b78a64.js.map": "/mcd-waste-tracker/static/js/main.03b78a64.js.map",
+    "main.e09247cb.js.map": "/mcd-waste-tracker/static/js/main.e09247cb.js.map",
     "453.a322910e.chunk.js.map": "/mcd-waste-tracker/static/js/453.a322910e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad28a279.css",
-    "static/js/main.03b78a64.js"
+    "static/js/main.e09247cb.js"
   ]
 }
