@@ -64,6 +64,10 @@ code {
   color: #6e6e6e;
   transition: 0.1s;
   font-size: 24px;
+  background-color: #fff;
+  border: none;
+  outline-color: none;
+  cursor: pointer;
 }
 
 .navigation__link--active {
@@ -122,6 +126,12 @@ code {
   color: black;
   background-color: #fff;
   box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.94);
+}
+
+.amount-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .categories-list {

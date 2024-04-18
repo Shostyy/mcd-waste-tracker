@@ -73,8 +73,7 @@ function HomePage() {
     setSelectedAmount('');
   };
 
-
-  const handleSaveToDatabase = async () => {
+  const handleSaveToDatabase = async (drink: boolean) => {
     setSaveErrorMessage(null);
     setSaveSuccessMessage(null);
     setIsSaving(true);
@@ -84,19 +83,26 @@ function HomePage() {
       const currentDay = currentDate.toLocaleDateString('uk-UA', { day: '2-digit', month: '2-digit' }).replace(/\./g, '-');
       const currentHour = currentDate.getHours();
       const currentMinute = currentDate.getMinutes();
-      let shift;
+      let sufix;
 
-      if ((currentHour < 14 && currentHour >= 5) || (currentHour === 14 && currentMinute < 30)) {
-        shift = "1SH";
+      console.log(drink);
+
+      if (!drink) {
+        if ((currentHour < 14 && currentHour >= 5) || (currentHour === 14 && currentMinute < 30)) {
+          sufix = "1SH";
+        } else {
+          sufix = "2SH";
+        }
       } else {
-        shift = "2SH";
+        sufix = 'НАПОЇ';
       }
+
 
       let errorOccurred = false;
 
       for (const wasteItem of wasteList) {
         try {
-          const result = `${currentDay} ${shift}`;
+          const result = `${currentDay} ${sufix}`;
           await saveWasteItemToFirebase(database, result, { [wasteItem.product]: wasteItem.amount });
           console.log(`Waste item "${wasteItem.product}" saved to Firebase successfully`);
         } catch (error) {
@@ -105,6 +111,7 @@ function HomePage() {
         }
       }
 
+      setWasteList([]);
       if (!errorOccurred) {
         setTimeout(() => {
           setSaveSuccessMessage('Дані збережені успішно');
@@ -114,22 +121,18 @@ function HomePage() {
         }, 5000);
       }
     } catch (error) {
+      setWasteList([]);
       setSaveErrorMessage('Сталася помилка під час збереження даних');
-
       setTimeout(() => {
         setSaveErrorMessage(null);
       }, 10000);
     } finally {
       setTimeout(() => {
-        setWasteList([]);
         setSelectedAmount('');
         setIsSaving(false);
       }, 250);
     }
   };
-
-
-
 
   return (
     <>
@@ -200,7 +203,7 @@ function HomePage() {
             <Button
               variant="contained"
               color="primary"
-              onClick={handleSaveToDatabase}
+              onClick={() => handleSaveToDatabase(selectedCategory === 4)}
               disabled={isSaving}
               sx={{
                 marginTop: '20px',
